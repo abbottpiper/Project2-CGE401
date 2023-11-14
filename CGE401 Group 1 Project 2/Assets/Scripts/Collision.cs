@@ -10,11 +10,11 @@ public class Collision : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemyy"))
+        if (collision.gameObject.tag == "Enemy")
         {
             youLose.enabled = true;
         }
-        else if(collision.gameObject.CompareTag("EndGoal"))
+        else if(collision.gameObject.tag == "EndGoal")
         {
             youWin.enabled = true;
         }
