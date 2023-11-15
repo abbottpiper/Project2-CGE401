@@ -20,11 +20,23 @@ public class Collision : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             youLose.enabled = true;
+            Time.timeScale = 0f;
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
         }
 
         if(collision.gameObject.tag == "EndGoal")
         {
             youWin.enabled = true;
+            Time.timeScale = 0f;
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
         }
     }
 }
