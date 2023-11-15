@@ -22,16 +22,7 @@ public class EnemyMovement : MonoBehaviour
     {
         Vector2 point = currentPoint.position - transform.position;
 
-        if(currentPoint = PointB.transform)
-        {
-            rb.velocity = new Vector2(speed, 0);
-        }
-        else
-        {
-            rb.velocity = new Vector2(-speed, 0);
-        }
-
-        if(Vector2.Distance(transform.position, currentPoint.position) < 0.05f && currentPoint == PointB.transform)
+        if (Vector2.Distance(transform.position, currentPoint.position) < 0.05f && currentPoint == PointB.transform)
         {
             currentPoint = PointA.transform;
         }
@@ -39,6 +30,15 @@ public class EnemyMovement : MonoBehaviour
         if (Vector2.Distance(transform.position, currentPoint.position) < 0.05f && currentPoint == PointA.transform)
         {
             currentPoint = PointB.transform;
+        }
+
+        if (currentPoint = PointB.transform)
+        {
+            rb.velocity = new Vector2(speed, 0);
+        }
+        else
+        {
+            rb.velocity = new Vector2(-speed, 0);
         }
     }
 }
