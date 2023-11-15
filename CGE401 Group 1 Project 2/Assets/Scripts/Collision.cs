@@ -2,11 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Collision : MonoBehaviour
 {
     public Text youLose;
     public Text youWin;
+
+    public void Start()
+    {
+        youLose.enabled = false;
+        youWin.enabled = false;
+    }
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
@@ -14,7 +21,8 @@ public class Collision : MonoBehaviour
         {
             youLose.enabled = true;
         }
-        else if(collision.gameObject.tag == "EndGoal")
+
+        if(collision.gameObject.tag == "EndGoal")
         {
             youWin.enabled = true;
         }

@@ -207,6 +207,7 @@ GameObject:
   - component: {fileID: 537492827}
   - component: {fileID: 537492826}
   - component: {fileID: 537492830}
+  - component: {fileID: 537492831}
   m_Layer: 0
   m_Name: PlayerFrontView
   m_TagString: Player
@@ -325,6 +326,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   youLose: {fileID: 1811311407}
   youWin: {fileID: 1053715335}
+--- !u!61 &537492831
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537492825}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.48, y: 10.44}
+    newSize: {x: 3.48, y: 10.44}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.48, y: 10.44}
+  m_EdgeRadius: 0
 --- !u!1 &648755421
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +464,7 @@ GameObject:
   - component: {fileID: 796352814}
   - component: {fileID: 796352813}
   - component: {fileID: 796352812}
+  - component: {fileID: 796352815}
   m_Layer: 0
   m_Name: TempEndGoal
   m_TagString: EndGoal
@@ -452,7 +480,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796352811}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -527,6 +555,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &796352815
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796352811}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.28, y: 6.84}
+    newSize: {x: 8.28, y: 6.84}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.28, y: 6.84}
+  m_EdgeRadius: 0
 --- !u!1 &1026857966
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,7 +698,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1053715334
 RectTransform:
   m_ObjectHideFlags: 0
@@ -988,7 +1042,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1811311406
 RectTransform:
   m_ObjectHideFlags: 0
