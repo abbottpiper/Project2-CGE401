@@ -4,41 +4,29 @@ using UnityEngine;
 
 public class LeftStartEnemyMovement : MonoBehaviour
 {
-    public float speed = 5f;
-    public GameObject PointA;
-    public GameObject PointB;
-
+    private float MoveX;
+    private float speed;
     private Rigidbody2D rb;
-
-    private Transform currentPoint;
+    private Vector3 direction;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        currentPoint = PointB.transform;
+        direction = transform.localScale;
+        MoveX = -1f;
+        speed = 5f;
     }
 
-    private void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Vector2 point = currentPoint.position - transform.position;
+        if (collision.gameObject.tag == "PointA" || collision.gameObject.tag == "PointB")
+        {
+            MoveX *= -1f;
+        }
+    }
 
-        if (currentPoint = PointB.transform)
-        {
-            rb.velocity = new Vector2(-speed, 0);
-        }
-        else
-        {
-            rb.velocity = new Vector2(speed, 0);
-        }
-
-        if (Vector2.Distance(transform.position, currentPoint.position) < 0.05f && currentPoint == PointB.transform)
-        {
-            currentPoint = PointA.transform;
-        }
-
-        if (Vector2.Distance(transform.position, currentPoint.position) < 0.05f && currentPoint == PointA.transform)
-        {
-            currentPoint = PointB.transform;
-        }
+    private void FixedUpdate()
+    {
+        rb.velocity = new Vector2(MoveX * speed, rb.velocity.y);
     }
 }

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - EndGoal
+  - PointA
+  - PointB
+  - Hide
   layers:
   - Default
   - TransparentFX
