@@ -28,12 +28,9 @@ public class Collision : MonoBehaviour
             restart = false;
             Time.timeScale = 1f;
         }
-
-        isHiding = false;
-        gameObject.GetComponent<BoxCollider2D>().enabled = true;
     }
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Enemy" && isHiding == false)
         {
@@ -42,25 +39,24 @@ public class Collision : MonoBehaviour
             Time.timeScale = 0f;
         }
 
+        if (collision.gameObject.tag == "Hide")
+        {
+            isHiding = true;
+        }
+
+        if(collision.gameObject.tag != "Hide")
+        {
+            isHiding = false;
+        }
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
         if (collision.gameObject.tag == "EndGoal" && isHiding == false)
         {
             youWin.enabled = true;
             restart = true;
             Time.timeScale = 0f;
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Hide")
-        {
-            isHiding = true;
-            gameObject.GetComponent<BoxCollider2D>().enabled = false;
-        }
-        else
-        {
-            isHiding = false;
-            gameObject.GetComponent<BoxCollider2D>().enabled = true;
         }
     }
 }
