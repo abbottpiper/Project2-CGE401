@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LeftStartEnemyMovement : MonoBehaviour
+public class StartRightEnemyMovement : MonoBehaviour
 {
     private float MoveX;
     private float speed;
@@ -13,7 +13,7 @@ public class LeftStartEnemyMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         direction = transform.localScale;
-        MoveX = -1f;
+        MoveX = 1f;
         speed = 5f;
     }
 

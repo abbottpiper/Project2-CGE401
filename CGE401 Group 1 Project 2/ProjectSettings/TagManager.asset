@@ -9,6 +9,8 @@ TagManager:
   - PointA
   - PointB
   - Hide
+  - PointC
+  - PointD
   layers:
   - Default
   - TransparentFX

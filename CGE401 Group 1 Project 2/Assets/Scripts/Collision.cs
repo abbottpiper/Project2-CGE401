@@ -49,11 +49,10 @@ public class Collision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        isHiding = true;
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        isHiding = false;
+        if (collision.gameObject.tag == "Hide")
+        {
+            isHiding = true;
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        }
     }
 }

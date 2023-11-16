@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public class StartDownEnemyMovement : MonoBehaviour
 {
-    private float MoveX;
+    private float MoveY;
     private float speed;
     private Rigidbody2D rb;
     private Vector3 direction;
@@ -13,20 +13,20 @@ public class EnemyMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         direction = transform.localScale;
-        MoveX = -1f;
+        MoveY = -1f;
         speed = 5f;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "PointA" || collision.gameObject.tag == "PointB")
+        if (collision.gameObject.tag == "PointC" || collision.gameObject.tag == "PointD")
         {
-            MoveX *= -1f;
+            MoveY *= -1f;
         }
     }
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(MoveX * speed, rb.velocity.y);
+        rb.velocity = new Vector2(rb.velocity.x, MoveY * speed);
     }
 }
