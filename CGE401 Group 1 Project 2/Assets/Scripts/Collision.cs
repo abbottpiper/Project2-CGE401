@@ -28,6 +28,9 @@ public class Collision : MonoBehaviour
             restart = false;
             Time.timeScale = 1f;
         }
+
+        isHiding = false;
+        gameObject.GetComponent<BoxCollider2D>().enabled = true;
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
@@ -53,6 +56,11 @@ public class Collision : MonoBehaviour
         {
             isHiding = true;
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        }
+        else
+        {
+            isHiding = false;
+            gameObject.GetComponent<BoxCollider2D>().enabled = true;
         }
     }
 }
