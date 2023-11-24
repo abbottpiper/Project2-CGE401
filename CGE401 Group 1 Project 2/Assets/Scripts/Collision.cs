@@ -13,7 +13,7 @@ public class Collision : MonoBehaviour
     private bool isHiding;
 
 	private bool isTouch;
-	int seconds = 0;
+	float seconds = 0f;
 
     public void Start()
     {
@@ -73,7 +73,7 @@ public class Collision : MonoBehaviour
 
 		seconds = seconds + 1;
 		
-		if(seconds >= 3 && isTouch == true)
+		if(seconds >= 2 && isTouch == true)
 		{
 			youLose.enabled = true;
 			restart = true;
