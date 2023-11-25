@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	public float speed = 5;
+	public Vector2 direction;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
