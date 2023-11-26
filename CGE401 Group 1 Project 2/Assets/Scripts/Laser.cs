@@ -16,13 +16,13 @@ public class Laser : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		while(laserStart == true)
+		do
 		{
 			laser.SetActive(true);
 			StartCoroutine(LaserTimer());
 			laser.SetActive(false);
 			StartCoroutine(LaserTimer());
-		}
+		} while (laserStart == true);
     }
 
 	IEnumerator LaserTimer()
