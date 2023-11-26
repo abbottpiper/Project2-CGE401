@@ -15,6 +15,11 @@ public class Collision : MonoBehaviour
 	private bool isTouch;
 	float seconds = 0f;
 
+	public Image Bar0;
+	public Image Bar1;
+	public Image Bar2;
+	public Image Bar3;
+
     public void Start()
     {
         youLose.enabled = false;
@@ -22,6 +27,8 @@ public class Collision : MonoBehaviour
         restart = false;
         isHiding = false;
 		isTouch = false;
+
+		Bar0.enabled = true;
     }
 
     private void Update()
@@ -39,6 +46,7 @@ public class Collision : MonoBehaviour
         if (collision.gameObject.tag == "Enemy" && isHiding == false)
         {
 			isTouch = true;
+
 			StartCoroutine(WaitTime());
         }
 		else
@@ -69,20 +77,15 @@ public class Collision : MonoBehaviour
 
 	IEnumerator WaitTime()
 	{
-		yield return new WaitForSeconds(0);
-
 		seconds = seconds + 1;
-		
-		if(seconds >= 2 && isTouch == true)
+
+		if(seconds >= 3 && isTouch == true)
 		{
 			youLose.enabled = true;
 			restart = true;
 			Time.timeScale = 0f;
 		}
 
-		if(isTouch == false)
-		{
-			seconds = 0;
-		}
+		yield return new WaitForSeconds(0);
 	}
 }

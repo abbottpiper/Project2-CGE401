@@ -11,6 +11,7 @@ TagManager:
   - Hide
   - PointC
   - PointD
+  - Laser
   layers:
   - Default
   - TransparentFX

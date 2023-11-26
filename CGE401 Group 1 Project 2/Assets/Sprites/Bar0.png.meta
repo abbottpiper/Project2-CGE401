@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 3be22d49fadabcd44b9058c9925482e6
+guid: beef86ee14d6e9246b64456c8c4cdcf1
 TextureImporter:
   fileIDToRecycleName:
-    21300000: FemaleGuardWalk2Side_0
+    21300000: Bar0_0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -74,13 +74,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FemaleGuardWalk2Side_0
+      name: Bar0_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 0
-        width: 249
-        height: 100
+        x: 0
+        y: 45
+        width: 100
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -88,7 +88,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 307ade6027098224a936d193999241cc
+      spriteID: d535d972a7c53f24a9c76add62eb1883
       vertices: []
       indices: 
       edges: []
@@ -96,7 +96,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1f3dfd2a0edfa5d4685f242b20756015
+    spriteID: 2f813a054ee7968438fbb10144825017
     vertices: []
     indices: 
     edges: []
