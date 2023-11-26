@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Laser : MonoBehaviour
 {
-	public GameObject laser;
+	public GameObject laser1;
+	public GameObject laser2;
+	public GameObject laser3;
 
 	public bool laserStart;
 
@@ -16,17 +18,33 @@ public class Laser : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		do
-		{
-			laser.SetActive(true);
-			StartCoroutine(LaserTimer());
-			laser.SetActive(false);
-			StartCoroutine(LaserTimer());
-		} while (laserStart == true);
+		StartCoroutine(LaserTimer());
     }
 
 	IEnumerator LaserTimer()
 	{
 		yield return new WaitForSeconds(2);
+
+		laser1.SetActive(true);
+		laser2.SetActive(true);
+		laser3.SetActive(true);
+
+		yield return new WaitForSeconds(2);
+
+		laser1.SetActive(false);
+		laser2.SetActive(false);
+		laser3.SetActive(false);
+
+		yield return new WaitForSeconds(2);
+
+		laser1.SetActive(true);
+		laser2.SetActive(true);
+		laser3.SetActive(true);
+
+		yield return new WaitForSeconds(2);
+
+		laser1.SetActive(false);
+		laser2.SetActive(false);
+		laser3.SetActive(false);
 	}
 }
