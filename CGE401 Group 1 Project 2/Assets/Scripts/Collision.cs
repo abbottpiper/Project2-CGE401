@@ -29,6 +29,9 @@ public class Collision : MonoBehaviour
 		isTouch = false;
 
 		Bar0.enabled = true;
+		Bar1.enabled = false;
+		Bar2.enabled = false;
+		Bar3.enabled = false;
     }
 
     private void Update()
@@ -70,7 +73,7 @@ public class Collision : MonoBehaviour
 
 		if(collision.gameObject.tag == "Laser")
 		{
-			count++;
+			StartCoroutine(WaitTime());
 		}
     }
 
@@ -78,8 +81,22 @@ public class Collision : MonoBehaviour
 	{
 		count = count + 1;
 
+		if(count == 1)
+		{
+			Bar0.enabled = false;
+			Bar1.enabled = true;
+		}
+
+		if(count == 2)
+		{
+			Bar1.enabled = false;
+			Bar2.enabled = true;
+		}
+
 		if(count >= 3)
 		{
+			Bar2.enabled = false;
+			Bar3.enabled = true;
 			youLose.enabled = true;
 			restart = true;
 			Time.timeScale = 0f;
