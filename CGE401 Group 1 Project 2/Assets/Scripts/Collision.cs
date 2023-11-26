@@ -13,7 +13,7 @@ public class Collision : MonoBehaviour
     private bool isHiding;
 
 	private bool isTouch;
-	float seconds = 0f;
+	float count = 0f;
 
 	public Image Bar0;
 	public Image Bar1;
@@ -45,23 +45,17 @@ public class Collision : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy" && isHiding == false)
         {
-			isTouch = true;
-
 			StartCoroutine(WaitTime());
         }
-		else
-		{
-			isTouch = false;
-		}
 
         if (collision.gameObject.tag == "Hide")
         {
             isHiding = true;
         }
 
-        if(collision.gameObject.tag != "Hide")
+        if(collision.gameObject.tag == "NotHide")
         {
-            isHiding = false;
+           isHiding = false;
         }
     }
 
@@ -73,13 +67,18 @@ public class Collision : MonoBehaviour
             restart = true;
             Time.timeScale = 0f;
         }
+
+		if(collision.gameObject.tag == "Laser")
+		{
+			count++;
+		}
     }
 
 	IEnumerator WaitTime()
 	{
-		seconds = seconds + 1;
+		count = count + 1;
 
-		if(seconds >= 3 && isTouch == true)
+		if(count >= 3)
 		{
 			youLose.enabled = true;
 			restart = true;

@@ -12,6 +12,7 @@ TagManager:
   - PointC
   - PointD
   - Laser
+  - NotHide
   layers:
   - Default
   - TransparentFX
