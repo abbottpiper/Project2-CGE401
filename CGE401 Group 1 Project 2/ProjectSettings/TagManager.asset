@@ -23,6 +23,7 @@ TagManager:
   - Button7
   - Button8
   - Button9
+  - WireBox
   layers:
   - Default
   - TransparentFX
