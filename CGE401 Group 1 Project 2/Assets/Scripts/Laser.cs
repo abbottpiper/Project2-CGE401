@@ -64,5 +64,10 @@ public class Laser : MonoBehaviour
         {
 			laser10.SetActive(false);
 		}
+
+		if (collision.gameObject.tag == "Button9")
+        {
+			laser11.SetActive(false);
+		}
 	}
 }

@@ -20,6 +20,9 @@ public class Collision : MonoBehaviour
 	public Image Bar2;
 	public Image Bar3;
 
+	public Image LoseImage1;
+	public Image LoseImage2;
+
     public void Start()
     {
         youLose.enabled = false;
@@ -32,6 +35,9 @@ public class Collision : MonoBehaviour
 		Bar1.enabled = false;
 		Bar2.enabled = false;
 		Bar3.enabled = false;
+
+		LoseImage1.enabled = false;
+		LoseImage2.enabled = false;
     }
 
     private void Update()
@@ -100,6 +106,9 @@ public class Collision : MonoBehaviour
 			youLose.enabled = true;
 			restart = true;
 			Time.timeScale = 0f;
+
+			LoseImage1.enabled = true;
+			LoseImage2.enabled = true;
 		}
 
 		yield return new WaitForSeconds(0);
