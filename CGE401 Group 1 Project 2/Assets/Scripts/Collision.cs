@@ -23,6 +23,9 @@ public class Collision : MonoBehaviour
 	public Image LoseImage1;
 	public Image LoseImage2;
 
+	public Image Win;
+	public Button Next;
+
 	public Image wireBox;
 	public Image Wire1;
 	public Image Wire2;
@@ -51,6 +54,8 @@ public class Collision : MonoBehaviour
 
 		LoseImage1.enabled = false;
 		LoseImage2.enabled = false;
+		Win.enabled = false;
+		Next.gameObject.SetActive(false);
 
 		wireBox.enabled = false;
 		Wire1.enabled = false;
@@ -99,8 +104,9 @@ public class Collision : MonoBehaviour
         if (collision.gameObject.tag == "EndGoal" && isHiding == false)
         {
             youWin.enabled = true;
-            restart = true;
             Time.timeScale = 0f;
+			Win.enabled = true;
+			Next.gameObject.SetActive(true);
         }
 
 		if(collision.gameObject.tag == "Laser")
