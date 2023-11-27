@@ -624,21 +624,20 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Dear (art thiefs name),\r\n\r\nI hope this letter finds you in good health
-    and high spirits. My name is Jahi, and I serve as a diplomat representing the
-    Arab Republic of Egypt. I am reaching out to you with an unusual request, one
-    that could utilize your unique skillset.\n\nThe Rosetta Stone, discovered in 1799
-    by French soldiers during Napoleon's Egyptian campaign, has become a symbol of
-    deciphering the past. Its trilingual inscription, featuring texts in ancient Egyptian
-    hieroglyphs, Demotic script, and ancient Greek, proved instrumental in decoding
-    the enigmatic hieroglyphic writing system. The stone, dating back to 196 BCE,
-    was commissioned by Pharaoh Ptolemy V, and its historical importance cannot be
-    overstated.\n\nIn light of this, we seek a discreet operation to liberate the
-    Rosetta Stone from its current confines, ensuring its safe passage back to the
-    land from which it originated. I understand the gravity of this proposition and
-    the risks involved, but I trust in your expertise and discretion. I urge you to
-    consider the historical and cultural implications of this endeavor, and to return
-    the stone back to its rightful homeland."
+  m_Text: "Dear Jaque,\r\n\r\nI hope this letter finds you in good health and high
+    spirits. My name is Jahi, and I serve as a diplomat representing the Arab Republic
+    of Egypt. I am reaching out to you with an unusual request, one that could utilize
+    your unique skillset.\n\nThe Rosetta Stone, discovered in 1799 by French soldiers
+    during Napoleon's Egyptian campaign, has become a symbol of deciphering the past.
+    Its trilingual inscription, featuring texts in ancient Egyptian hieroglyphs, Demotic
+    script, and ancient Greek, proved instrumental in decoding the enigmatic hieroglyphic
+    writing system. The stone, dating back to 196 BCE, was commissioned by Pharaoh
+    Ptolemy V, and its historical importance cannot be overstated.\n\nIn light of
+    this, we seek a discreet operation to liberate the Rosetta Stone from its current
+    confines, ensuring its safe passage back to the land from which it originated.
+    I understand the gravity of this proposition and the risks involved, but I trust
+    in your expertise and discretion. I urge you to consider the historical and cultural
+    implications of this endeavor, and to return the stone back to its rightful homeland."
 --- !u!222 &2055058446
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -658,6 +657,7 @@ GameObject:
   - component: {fileID: 2135528494}
   - component: {fileID: 2135528493}
   - component: {fileID: 2135528492}
+  - component: {fileID: 2135528495}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -729,3 +729,99 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2135528495
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135528491}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9370ea7b05201e9418e76eebdd9b42c7, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.363
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
