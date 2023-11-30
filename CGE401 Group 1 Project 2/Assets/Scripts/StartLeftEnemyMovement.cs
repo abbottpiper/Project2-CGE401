@@ -23,6 +23,16 @@ public class StartLeftEnemyMovement : MonoBehaviour
         {
             MoveX *= -1f;
         }
+
+        if (collision.gameObject.tag == "PointA")
+        {
+            transform.Rotate(0, 180, 0);
+        }
+
+        if (collision.gameObject.tag == "PointB")
+        {
+            transform.Rotate(0, 180, 0);
+        }
     }
 
     private void FixedUpdate()
