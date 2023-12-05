@@ -8,6 +8,6 @@ public class Powerups : MonoBehaviour
 
     void Update()
     {
-
+        
     }
 }
