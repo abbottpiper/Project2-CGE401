@@ -13,11 +13,6 @@ public class CameraLights : MonoBehaviour
     public GameObject Light4;
     public GameObject Light5;
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         if (num == 1)
@@ -53,6 +48,7 @@ public class CameraLights : MonoBehaviour
         if (wireAmount == 5)
         {
             num++;
+            wireAmount = 0;
         }
     }
 }

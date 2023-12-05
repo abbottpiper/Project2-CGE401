@@ -7446,7 +7446,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1595829744}
+      - m_Target: {fileID: 1058669563}
         m_MethodName: Wires
         m_Mode: 1
         m_Arguments:
@@ -12936,7 +12936,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 537492825}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -147.11, y: -31.97, z: 0}
+  m_LocalPosition: {x: -171.6, y: -31.8, z: 0}
   m_LocalScale: {x: 0.3324931, y: 0.24257797, z: 1}
   m_Children:
   - {fileID: 408834884}
@@ -13517,7 +13517,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1595829744}
+      - m_Target: {fileID: 1058669563}
         m_MethodName: Wires
         m_Mode: 1
         m_Arguments:
@@ -20275,9 +20275,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '3
-
-'
+  m_Text: X
 --- !u!222 &874340423
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22327,7 +22325,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 'X
+
+'
 --- !u!222 &998013376
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22935,9 +22935,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '5
-
-'
+  m_Text: X
 --- !u!222 &1025387484
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23707,6 +23705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1058669562}
   - component: {fileID: 1058669561}
+  - component: {fileID: 1058669563}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -23753,6 +23752,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1058669563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058669560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f992ca70079bd42ab659184f58cffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Light1: {fileID: 1880210465}
+  Light2: {fileID: 1402104572}
+  Light3: {fileID: 955663517}
+  Light4: {fileID: 2028060117}
+  Light5: {fileID: 1880236397}
 --- !u!1 &1060037662
 GameObject:
   m_ObjectHideFlags: 0
@@ -28182,7 +28198,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1595829744}
+      - m_Target: {fileID: 1058669563}
         m_MethodName: Wires
         m_Mode: 1
         m_Arguments:
@@ -30763,7 +30779,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1595829744}
+      - m_Target: {fileID: 1058669563}
         m_MethodName: Wires
         m_Mode: 1
         m_Arguments:
@@ -35202,54 +35218,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 340
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1595829743
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1595829745}
-  - component: {fileID: 1595829744}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1595829744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1595829743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7f992ca70079bd42ab659184f58cffd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Light1: {fileID: 1880210465}
-  Light2: {fileID: 1402104572}
-  Light3: {fileID: 955663517}
-  Light4: {fileID: 2028060117}
-  Light5: {fileID: 1880236397}
---- !u!4 &1595829745
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1595829743}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -115.302315, y: -7.387608, z: -0.734375}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 542
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1600913695
 GameObject:
   m_ObjectHideFlags: 0
@@ -35637,7 +35605,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1595829744}
+      - m_Target: {fileID: 1058669563}
         m_MethodName: Wires
         m_Mode: 1
         m_Arguments:
@@ -38749,9 +38717,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '4
-
-'
+  m_Text: X
 --- !u!222 &1738617112
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -43121,9 +43087,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '2
-
-'
+  m_Text: X
 --- !u!222 &1930331964
 CanvasRenderer:
   m_ObjectHideFlags: 0

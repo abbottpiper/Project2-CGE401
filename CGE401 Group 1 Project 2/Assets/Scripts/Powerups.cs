@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Powerups : MonoBehaviour
 {
+    public GameObject plant;
+
     void Update()
     {
-        
+
     }
 }
