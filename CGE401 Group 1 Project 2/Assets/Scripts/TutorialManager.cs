@@ -16,7 +16,7 @@ public class TutorialManager : MonoBehaviour
 
         Time.timeScale = 0f;
         tutorialPanel.SetActive(true);
-        tutorialText.text = "Welcome to the Heist! \nControl the theif with the Arrow or WASD Keys \nAvoid detection by guards by staying out of line-of-sight \nUtilize hiding spots to remain undetected \nPress (Spacebar) to continue. Good luck!";
+        tutorialText.text = "Welcome to the Heist! \nControl the theif with the Arrow or WASD Keys \nAvoid detection by guards by staying out of line-of-sight \nPress (Spacebar) to continue. Good luck!";
     }
 
     void Update()

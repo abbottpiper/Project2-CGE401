@@ -10,16 +10,28 @@ EditorBuildSettings:
     guid: 2d390f6e055fb3f4b966f47affc288ef
   - enabled: 1
     path: Assets/Scenes/Narrative1.unity
-    guid: f41ac2b0358764646a4d1bcfc481e837
+    guid: db56647fcbb7d554190a4c6c016c22d3
+  - enabled: 1
+    path: Assets/Scenes/AustraliaLetter.unity
+    guid: 44e375e8cb7ab914ca1c62f0fb6dcaf9
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: cdc76af3a55eb2e458876086c4da0442
   - enabled: 1
+    path: Assets/Scenes/NigeraLetter.unity
+    guid: f81c3845c7f87794dbeec6ccafee3f23
+  - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: 42cb716128e955d4595b4c692cd3c16c
   - enabled: 1
+    path: Assets/Scenes/ChinaLetter.unity
+    guid: df15271be7aa7274f9d8d17dc3ca2ee7
+  - enabled: 1
     path: Assets/Scenes/Level3.unity
     guid: dd83878bb56515243a98e3ca5e1bef9c
+  - enabled: 1
+    path: Assets/Scenes/EgyptLetter.unity
+    guid: f41ac2b0358764646a4d1bcfc481e837
   - enabled: 1
     path: Assets/Scenes/Level4.unity
     guid: fb77d1f5523418643aaf3d2c0ffcf65e

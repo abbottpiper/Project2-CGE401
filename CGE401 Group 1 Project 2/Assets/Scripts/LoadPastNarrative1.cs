@@ -2,7 +2,7 @@
 Piper Abbott-Phillips
 LoadPastNarrative1.cs
 Group Project 2
-Code controls button function and scene loading from first narrative section in order to avoid overlap with tutorial
+Code controls button function and scene loading from narrative section in order to avoid overlap with tutorial
 */
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,6 +20,6 @@ public class LoadPastNarrative1 : MonoBehaviour
 
 	void TaskOnClick()
 	{
-		SceneManager.LoadScene("Level1", LoadSceneMode.Single);
+		SceneManager.LoadScene("Level4", LoadSceneMode.Single);
 	}
 }
