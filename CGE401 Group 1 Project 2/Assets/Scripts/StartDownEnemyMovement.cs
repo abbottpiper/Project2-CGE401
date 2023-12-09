@@ -23,6 +23,16 @@ public class StartDownEnemyMovement : MonoBehaviour
         {
             MoveY *= -1f;
         }
+
+        if(collision.gameObject.tag == "PointC")
+        {
+            transform.Rotate(180, 0, 0);
+        }
+
+        if (collision.gameObject.tag == "PointD")
+        {
+            transform.Rotate(180, 0, 0);
+        }
     }
 
     private void FixedUpdate()
