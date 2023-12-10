@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+Piper Abbott-Phillips
+TextDisplay.cs
+Group Project 2
+Code uses a for loop to display ui text letter by letter, until the entire string is displayed. When all the text has been displayed, it activates a button.
+*/
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 

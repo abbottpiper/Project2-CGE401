@@ -421,6 +421,7 @@ RectTransform:
   - {fileID: 523363272}
   - {fileID: 2055058444}
   - {fileID: 1838325806}
+  - {fileID: 1992173537}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -442,17 +443,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 2055058445}
-  fullText: Dear Jaque, I hope this letter finds you in good health. My name is Jahi,
+  fullText: Dear Jaque,  I hope this letter finds you in good health. My name is Jahi,
     and I serve as a diplomat representing the Arab Republic of Egypt. I am reaching
-    out to you with an unusual request, one that could utilize your unique skillset.  The
+    out to you with an unusual request, one that could utilize your unique skill set.  The
     Rosetta Stone, discovered in 1799 by French soldiers during Napoleon's Egyptian
-    campaign, has become a symbol of deciphering the past. It's cultural an historical
-    significance to the people of Egypt incalculable, and it must be returned back
-    to its homeland.   In light of this, we seek a discreet operation to liberate
-    the Rosetta Stone from its current confines in the British Museum. I understand
-    the gravity of this proposition and the risks involved, but I trust in your expertise
+    campaign, has become a symbol of deciphering the past. Its cultural and historical
+    significance to the people of Egypt is incalculable, and it must be returned back
+    to its homeland.  In light of this, we seek a discreet operation to liberate the
+    Rosetta Stone from its current confines in the British Museum. I understand the
+    gravity of this proposition and the risks involved, but I trust in your expertise
     and discretion. I urge you to consider the historical and cultural implications
-    of this endeavor, and to return the stone back to its rightful homeland.
+    of this endeavor and to return the stone back to its rightful homeland.  Sincerely,  Jahi
   letterDelay: 0.04
   button: {fileID: 1838325805}
 --- !u!1 &1838325805
@@ -583,6 +584,78 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838325805}
   m_CullTransparentMesh: 0
+--- !u!1 &1992173536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1992173537}
+  - component: {fileID: 1992173539}
+  - component: {fileID: 1992173538}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1992173537
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992173536}
+  m_LocalRotation: {x: -0, y: -0, z: -0.11373319, w: -0.9935113}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.647462, y: 0.76172, z: 0.76172}
+  m_Children: []
+  m_Father: {fileID: 1639042032}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1066.939}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 218.6, y: 140}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1992173538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992173536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 92af8197d4e8ce74aa90838ee0fbd860, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1992173539
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992173536}
+  m_CullTransparentMesh: 0
 --- !u!1 &2055058443
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,8 +690,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000078678, y: 35}
-  m_SizeDelta: {x: 506.5572, y: 287.95355}
+  m_AnchoredPosition: {x: -37.85, y: 35}
+  m_SizeDelta: {x: 451.3324, y: 287.95343}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2055058445
 MonoBehaviour:
@@ -651,17 +724,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Dear Jaque,\r\n\r\nI hope this letter finds you in good health. My name
-    is Jahi, and I serve as a diplomat representing the Arab Republic of Egypt. I
-    am reaching out to you with an unusual request, one that could utilize your unique
-    skillset.\n\nThe Rosetta Stone, discovered in 1799 by French soldiers during Napoleon's
-    Egyptian campaign, has become a symbol of deciphering the past. It's cultural
-    an historical significance to the people of Egypt incalculable, and it must be
-    returned back to its homeland. \n\nIn light of this, we seek a discreet operation
-    to liberate the Rosetta Stone from its current confines in the British Museum.
-    I understand the gravity of this proposition and the risks involved, but I trust
-    in your expertise and discretion. I urge you to consider the historical and cultural
-    implications of this endeavor, and to return the stone back to its rightful homeland."
+  m_Text: 
 --- !u!222 &2055058446
 CanvasRenderer:
   m_ObjectHideFlags: 0

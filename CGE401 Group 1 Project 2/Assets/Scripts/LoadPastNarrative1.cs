@@ -2,7 +2,7 @@
 Piper Abbott-Phillips
 LoadPastNarrative1.cs
 Group Project 2
-Code controls button function and scene loading from narrative section in order to avoid overlap with tutorial
+Code controls button function and scene loading from the egyptian letter section in order to avoid overlap with tutorial
 */
 using UnityEngine;
 using UnityEngine.UI;

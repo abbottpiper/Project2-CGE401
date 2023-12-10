@@ -1,6 +1,6 @@
 ﻿/*
 Piper Abbott-Phillips
-LoadPastLetter3.cs
+LoadPastJaque.cs
 Group Project 2
 Code allows a button press to load the next scene
 */
@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
-public class LoadPastLetter3 : MonoBehaviour
+public class LoadPastJaque : MonoBehaviour
 {
 	public Button yourButton;
 
@@ -20,6 +20,6 @@ public class LoadPastLetter3 : MonoBehaviour
 
 	void TaskOnClick()
 	{
-		SceneManager.LoadScene("Level3", LoadSceneMode.Single);
+		SceneManager.LoadScene("AustraliaLetter", LoadSceneMode.Single);
 	}
 }

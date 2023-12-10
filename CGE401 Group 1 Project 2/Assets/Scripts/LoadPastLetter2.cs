@@ -1,4 +1,10 @@
-﻿using UnityEngine;
+﻿/*
+Piper Abbott-Phillips
+LoadPastLetter2.cs
+Group Project 2
+Code allows a button press to load the next scene
+*/
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
