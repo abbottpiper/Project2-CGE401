@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/* Denver Heneghan
+ * FollowPlayer
+ * Group Project 2
+ * This script allows the enemy object to move in the direction of the player at a speed of three. This script also rotates the player on the
+ * x and y axis so that it is always facing the player.
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

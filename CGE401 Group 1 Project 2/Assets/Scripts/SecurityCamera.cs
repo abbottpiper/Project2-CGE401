@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/* Denver Heneghan
+ * SecurityCamera
+ * Group Project 2
+ * This script has methods called by buttons in Unity. When a button is clicked, a counter goes up. Once the counter reaches 5, all the images
+ * and buttons are hidden, the counter is reset to 0, and 1 is added to the numbers int. Pressing a button also hides the wire images.
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

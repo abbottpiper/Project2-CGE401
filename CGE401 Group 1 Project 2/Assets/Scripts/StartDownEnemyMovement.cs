@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/* Denver Heneghan
+ * StartDownEnemyMovement
+ * Group Project 2
+ * This causes the enemy object to start moving left along the y axis at a speed of 5. If the object collides it an object tagged PointC, the
+ * object will begin to move in the opposite direction on the y axis. If the object collides with an objected tagged PointD, the object will
+ * also move in the opposite direction on the y axis.
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

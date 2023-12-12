@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/* Denver Heneghan
+ * CameraLights
+ * Group Project 2
+ * There is a wire method that is used by a button in the Unity script. The num int is the same from the security camera script, and it is
+ * kept track of in a GameManager object. Depending on the number num reaches, a specific light game object and wire box outside game object are
+ * destroyed. This clears the obstacle blocking the path, and prevents the player from redoing the completed minigame. 
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

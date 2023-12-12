@@ -1,4 +1,15 @@
-﻿using System.Collections;
+﻿/* Denver Heneghan
+ * Collision
+ * Group Project 2
+ * This script keeps track of all the collisions the player object interacts with. If the player object collides with an enemy object, a 
+ * counter goes up, which makes the suspicion bar go up. If the suspicion bar is filled, or the counter gets to three, then the game is over.
+ * This script allows the player to restart the scene when that happens. This script also allows players to no longer be intractable with
+ * enemy objects if they touch a hide object. Once they cross the notHide object then they are interactable with enemies again. If the player
+ * collides with the end goal, then the player wins, and they can move to the next level. If the player interacts with the wire box object,
+ * then the wire box minigame appears on screen.
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

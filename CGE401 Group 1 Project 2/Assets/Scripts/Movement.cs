@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/* Denver Heneghan
+ * Movement
+ * Group Project 2
+ * This script controls the movement of the player. The player object moves along the horizontal and vertical axis depending on which arrow
+ * key or wasd key is hit. It moves at a speed of 12.
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

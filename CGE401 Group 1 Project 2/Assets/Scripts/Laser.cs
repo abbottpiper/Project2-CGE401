@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/* Denver Heneghan
+ * Laser
+ * Group Project 2
+ * This script sets the laser game objects to false if the player collides with the object tagged as Button, Button1, Button2, etc... Each tag
+ * corresponds to a different laser game object.
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
