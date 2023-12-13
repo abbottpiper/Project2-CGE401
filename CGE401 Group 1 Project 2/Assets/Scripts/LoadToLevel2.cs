@@ -2,7 +2,7 @@
 Piper Abbott-Phillips
 LoadToLevel2.cs
 Group Project 2
-Code loads the "Level2" scene on button press
+Code loads the "NigeraLetter" scene on button press
 */
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,6 +20,7 @@ public class LoadToLevel2 : MonoBehaviour
 
 	void TaskOnClick()
 	{
-		SceneManager.LoadScene("Level2", LoadSceneMode.Single);
-	}
+		SceneManager.LoadScene("NigeraLetter", LoadSceneMode.Single);
+        Time.timeScale = 1f;
+    }
 }

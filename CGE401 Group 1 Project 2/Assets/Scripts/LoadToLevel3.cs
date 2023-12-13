@@ -2,7 +2,7 @@
 Piper Abbott-Phillips
 LoadToLevel3.cs
 Group Project 2
-Code loads the "Level3" scene on button press
+Code loads the "ChinaLetter" scene on button press
 */
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,6 +20,7 @@ public class LoadToLevel3 : MonoBehaviour
 
 	void TaskOnClick()
 	{
-		SceneManager.LoadScene("Level3", LoadSceneMode.Single);
+		SceneManager.LoadScene("ChinaLetter", LoadSceneMode.Single);
+        Time.timeScale = 1f;
 	}
 }

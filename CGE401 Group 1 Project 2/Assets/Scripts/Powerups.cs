@@ -48,7 +48,7 @@ public class Powerups : MonoBehaviour
 
     IEnumerator Timer()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(30);
 
         isClick = true;
         Hide.enabled = true;
