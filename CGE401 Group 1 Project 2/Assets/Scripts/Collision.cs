@@ -21,7 +21,7 @@ public class Collision : MonoBehaviour
     public Text youWin;
 
     private bool restart;
-    private bool isHiding;
+    public bool isHiding;
 
 	private bool isTouch;
 	float count = 0f;

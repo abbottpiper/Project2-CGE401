@@ -1608,7 +1608,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408834881}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1112306, y: 8.626841, z: -10}
+  m_LocalPosition: {x: -1.1102343, y: 8.544524, z: -10}
   m_LocalScale: {x: 3.3061411, y: 3.8290632, z: 1}
   m_Children: []
   m_Father: {fileID: 537492829}
@@ -1662,7 +1662,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.31
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2250,7 +2250,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 4.145763, y: 1}
+    m_SensorSize: {x: 4.3368793, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2638,6 +2638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   youLose: {fileID: 1811311407}
   youWin: {fileID: 1053715335}
+  isHiding: 0
   Bar0: {fileID: 525670570}
   Bar1: {fileID: 1083497017}
   Bar2: {fileID: 2133075390}
@@ -4617,7 +4618,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbb7e676a8e579c4cbaeeb37aa4a3a9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myAnimation: {fileID: 1273033804}
 --- !u!1 &1299933818
 GameObject:
   m_ObjectHideFlags: 0
