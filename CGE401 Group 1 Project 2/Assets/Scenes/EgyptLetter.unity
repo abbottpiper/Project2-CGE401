@@ -443,17 +443,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 2055058445}
-  fullText: Dear Jaque,  I hope this letter finds you in good health. My name is Jahi,
-    and I serve as a diplomat representing the Arab Republic of Egypt. I am reaching
-    out to you with an unusual request, one that could utilize your unique skill set.  The
-    Rosetta Stone, discovered in 1799 by French soldiers during Napoleon's Egyptian
-    campaign, has become a symbol of deciphering the past. Its cultural and historical
-    significance to the people of Egypt is incalculable, and it must be returned back
-    to its homeland.  In light of this, we seek a discreet operation to liberate the
-    Rosetta Stone from its current confines in the British Museum. I understand the
-    gravity of this proposition and the risks involved, but I trust in your expertise
-    and discretion. I urge you to consider the historical and cultural implications
-    of this endeavor and to return the stone back to its rightful homeland.  Sincerely,  Jahi
+  fullText: Dear Jaque,  I apologize for reaching out to you so blatantly. My name
+    is Jahi, and I serve as a diplomat representing the Arab Republic of Egypt. I
+    am reaching out to you with an unusual request, one that could utilize your unique
+    skill set.  The Rosetta Stone, discovered in 1799 by French soldiers during Napoleon's
+    Egyptian campaign, has become a symbol of deciphering the past. Its cultural and
+    historical significance to the people of Egypt is incalculable, and it must be
+    returned back to its homeland.  In light of this, we seek a discreet operation
+    to liberate the Rosetta Stone from its current confines in the British Museum.
+    I understand the gravity of this proposition and the risks involved, but I trust
+    in your expertise and discretion. I urge you to consider the historical and cultural
+    implications of this endeavor and to return the stone back to its rightful homeland.  Sincerely,  Jahi
   letterDelay: 0.04
   button: {fileID: 1838325805}
 --- !u!1 &1838325805

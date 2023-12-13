@@ -16,7 +16,7 @@ public class TutorialManager4 : MonoBehaviour
 
         Time.timeScale = 0f;
         tutorialPanel.SetActive(true);
-        tutorialText.text = "Watch out for the roaming mummy! \nPress (Spacebar) to continue. Good luck!";
+        tutorialText.text = "Watch out for the roaming mummy! \n\nPress (Spacebar) to continue. Good luck!";
     }
 
     void Update()

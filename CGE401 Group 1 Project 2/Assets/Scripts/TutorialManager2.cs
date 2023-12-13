@@ -16,7 +16,7 @@ public class TutorialManager2 : MonoBehaviour
 
         Time.timeScale = 0f;
         tutorialPanel.SetActive(true);
-        tutorialText.text = "Search for and activate the buttons to deactivate the lasers \nPress (Spacebar) to continue. Good luck!";
+        tutorialText.text = "Search for and press the buttons to deactivate the lasers. \n\nYou can also now press the Z key to throw a Smoke Bomb to get out of a sticky situation! \n\nPress (Spacebar) to continue.";
     }
 
     void Update()
