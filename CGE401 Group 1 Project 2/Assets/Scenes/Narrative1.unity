@@ -152,8 +152,8 @@ MonoBehaviour:
     I got those letters... I knew I had a chance to finally put my skills to use for
     good insead of bad... I know one good deed doesn't make up for a life of crime,
     but sometimes the echoes of the past can be softened by a single act of redemption.
-  letterDelay: 0.07
-  button: {fileID: 817634328}
+  letterDelay: 0.06
+  button: {fileID: 2025718467}
 --- !u!114 &31713003
 MonoBehaviour:
   m_ObjectHideFlags: 0
