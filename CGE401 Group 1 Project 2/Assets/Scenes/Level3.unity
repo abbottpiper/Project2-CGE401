@@ -13719,6 +13719,7 @@ GameObject:
   - component: {fileID: 537492832}
   - component: {fileID: 537492833}
   - component: {fileID: 537492834}
+  - component: {fileID: 537492835}
   m_Layer: 0
   m_Name: PlayerFrontView
   m_TagString: Player
@@ -14021,6 +14022,25 @@ MonoBehaviour:
   Smoke: {fileID: 1030093638}
   Hide: {fileID: 1294305074}
   HideTimer: {fileID: 1926906188}
+--- !u!95 &537492835
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537492825}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e299c88fb4bca6b40b7eccc2a73dc318, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &537671678
 GameObject:
   m_ObjectHideFlags: 0
