@@ -155,7 +155,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -186,7 +186,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -25.58, y: 34.74}
+  m_AnchoredPosition: {x: 0.000013351, y: -11.5}
   m_SizeDelta: {x: 412.10614, y: 224.75867}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &315772576
@@ -783,8 +783,8 @@ GameObject:
   - component: {fileID: 2059007347}
   - component: {fileID: 2059007346}
   - component: {fileID: 2059007345}
-  - component: {fileID: 2059007349}
   - component: {fileID: 2059007350}
+  - component: {fileID: 2059007349}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -897,18 +897,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 2059007344}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ab3d0d2a356b2540b0b08f0118ad2b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 9072e2c2b8938234dabed1721c566a0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 268974208}
-  fullText: "Dear Jaque, My name is Rodney, and I write to you as a concerned Australian
-    who has recently learned of your involvement in matters related to \"Art Relocation\".
-    I am reaching out regarding an artifact close to my heart\u2014the early Aboriginal
-    shield currently housed in the British Museum. This shield, with its rich cultural
-    and historical significance, is a tangible link to the heritage of Australia's
-    indigenous people. Its presence in the Museum has sparked conversations about
-    the rightful ownership of cultural artifacts and the importance of repatriation.
-    I know this job is dangerous, but I urge you to consider the benefits of returning
-    this artifact to its rightful home. Sincerely Rodney, and all of Australia.    "
-  letterDelay: 0.05
-  button: {fileID: 2032803050}
+  buttonContainer: {fileID: 2032803050}
+  stringsToDisplay:
+  - Dear Jaque, My name is Rodney, and I write to you as a concerned Australian who
+    has recently learned of your involvement in matters related to "Art Relocation".
+  - "I am reaching out regarding an artifact close to my heart\u2014the early Aboriginal
+    shield currently housed in the British Museum."
+  - This shield, with its rich cultural and historical significance, is a tangible
+    link to the heritage of Australia's indigenous people.
+  - Its presence in the Museum has sparked conversations about the rightful ownership
+    of cultural artifacts and the importance of repatriation.
+  - I know this job is dangerous, but I urge you to consider the benefits of returning
+    this artifact to its rightful home. Sincerely Rodney, and all of Australia.

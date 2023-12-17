@@ -439,23 +439,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1639042028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ab3d0d2a356b2540b0b08f0118ad2b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 9072e2c2b8938234dabed1721c566a0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 2055058445}
-  fullText: Dear Jaque,  I apologize for reaching out to you so blatantly. My name
-    is Jahi, and I serve as a diplomat representing the Arab Republic of Egypt. I
-    am reaching out to you with an unusual request, one that could utilize your unique
-    skill set.  The Rosetta Stone, discovered in 1799 by French soldiers during Napoleon's
-    Egyptian campaign, has become a symbol of deciphering the past. Its cultural and
-    historical significance to the people of Egypt is incalculable, and it must be
-    returned back to its homeland.  In light of this, we seek a discreet operation
-    to liberate the Rosetta Stone from its current confines in the British Museum.
-    I understand the gravity of this proposition and the risks involved, but I trust
+  buttonContainer: {fileID: 1838325805}
+  stringsToDisplay:
+  - Dear Jaque,  I apologize for reaching out to you so blatantly. My name is Jahi,
+    and I serve as a diplomat representing the Arab Republic of Egypt.
+  - I am reaching out to you with an unusual request, one that could utilize your
+    unique skill set.
+  - The Rosetta Stone, discovered in 1799 by French soldiers during Napoleon's Egyptian
+    campaign, has become a symbol of deciphering the past. Its cultural and historical
+    significance to the people of Egypt is incalculable, and it must be returned back
+    to its homeland.
+  - In light of this, we seek a discreet operation to liberate the Rosetta Stone from
+    its current confines in the British Museum.
+  - I understand the gravity of this proposition and the risks involved, but I trust
     in your expertise and discretion. I urge you to consider the historical and cultural
-    implications of this endeavor and to return the stone back to its rightful homeland.  Sincerely,  Jahi
-  letterDelay: 0.04
-  button: {fileID: 1838325805}
+    implications of this endeavor and to return the stone back to its rightful homeland.
+    Sincerely,  Jahi
 --- !u!1 &1838325805
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,7 +693,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -37.85, y: 35}
+  m_AnchoredPosition: {x: -0.0000076294, y: -50.5}
   m_SizeDelta: {x: 451.3324, y: 287.95343}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2055058445

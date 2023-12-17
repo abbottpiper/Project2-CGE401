@@ -142,18 +142,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 31713001}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ab3d0d2a356b2540b0b08f0118ad2b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 9072e2c2b8938234dabed1721c566a0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 322293493}
-  fullText: They call me Jaque, a name tinged with whispers of a life spent navigating
-    the edges of art and theft. Sixty years old and supposedly done, until life threw
-    a curveball my way.  Tonight, I step out of the shadows for one last set of gigs.  Once
-    I got those letters... I knew I had a chance to finally put my skills to use for
-    good insead of bad... I know one good deed doesn't make up for a life of crime,
-    but sometimes the echoes of the past can be softened by a single act of redemption.
-  letterDelay: 0.06
-  button: {fileID: 2025718467}
+  buttonContainer: {fileID: 2025718467}
+  stringsToDisplay:
+  - They call me Jaque, a name tinged with whispers of a life spent navigating the
+    edges of art and theft.
+  - Sixty years old and supposedly done, until life threw a curve ball my way.  Tonight,
+    I step out of the shadows for one last set of gigs.
+  - ' Once I got those letters... I knew I had a chance to finally put my skills to
+    use for good instead of bad...'
+  - I know one good deed doesn't make up for a life of crime, but sometimes the echoes
+    of the past can be softened by a single act of redemption
 --- !u!114 &31713003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,7 +325,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -135, y: -28}
+  m_AnchoredPosition: {x: -78, y: -105}
   m_SizeDelta: {x: 530.03076, y: 409.7251}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &817634328
@@ -756,7 +758,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -124, y: -110}
+  m_AnchoredPosition: {x: -78, y: -87}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2025718469

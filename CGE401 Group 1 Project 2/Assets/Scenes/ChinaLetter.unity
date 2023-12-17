@@ -535,7 +535,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42.01, y: 41.88}
+  m_AnchoredPosition: {x: -0.0000076294, y: -40.665}
   m_SizeDelta: {x: 437.63806, y: 274.9299}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1910338490
@@ -563,7 +563,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -818,23 +818,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 2003728637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ab3d0d2a356b2540b0b08f0118ad2b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 9072e2c2b8938234dabed1721c566a0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1910338490}
-  fullText: "Dear Jaque,  I hope this letter finds you well. I'm Mei, writing to you
-    about a matter close to the hearts of many in China. I am in dire need of someone
-    with your unique skill-set.  There is a cultural artifact of great historical
-    and cultural importance to many in China that has been separated from its homeland\u2014
-    \"The Admonitions of the Instructress to the Court Ladies.\"  This ancient masterpiece,
-    dating back to the 4th century during the Eastern Jin dynasty, holds immense value
-    as one of the earliest Chinese narrative paintings. Unfortunately, it now resides
-    in the British Museum, far from its home. If you could contribute to its return
-    back to China, I, and many others would be eternally grateful.   Your consideration
-    of this matter is highly appreciated, recognizing the impact it holds on preserving
-    our shared cultural heritage.  Sincerely,  Mei"
-  letterDelay: 0.04
-  button: {fileID: 1939450657}
+  buttonContainer: {fileID: 1939450657}
+  stringsToDisplay:
+  - Dear Jaque,  I hope this letter finds you well. I'm Mei, writing to you about
+    a matter close to the hearts of many in China.
+  - "I am in dire need of someone with your unique skill-set.  There is a cultural
+    artifact of great historical and cultural importance to many in China that has
+    been separated from its homeland\u2014 \"The Admonitions of the Instructress to
+    the Court Ladies.\""
+  - ' This ancient masterpiece, dating back to the 4th century during the Eastern
+    Jin dynasty, holds immense value as one of the earliest Chinese narrative paintings.'
+  - Unfortunately, it now resides in the British Museum, far from its home. If you
+    could contribute to its return back to China, I, and many others would be eternally
+    grateful.
+  - Your consideration of this matter is highly appreciated, recognizing the impact
+    it holds on preserving our shared cultural heritage.  Sincerely,  Mei
 --- !u!1 &2024479581
 GameObject:
   m_ObjectHideFlags: 0
